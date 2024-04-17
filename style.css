@@ -91,6 +91,11 @@ main article section form input[type=submit] {
     font-weight: 600;
 }
 
+main article section form input[type=submit]:hover {
+    background-color: #7195f5;
+    cursor: pointer;
+}
+
 main article figure {
     position: relative;
     width: 500px;
@@ -127,6 +132,12 @@ main article footer div:nth-child(1) div ion-icon {
     border-radius: 50%;
     padding: 5px;
     margin-right: 10px;
+}
+
+main article footer div:nth-child(1) div ion-icon:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #658ae9;
 }
 
 main article footer div:nth-child(2) {
