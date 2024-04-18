@@ -74,6 +74,14 @@ main article section form {
     justify-content: center;
 }
 
+main article section form p {
+    position: absolute;
+    color: hsl(354, 100%, 66%);
+    top: 185px;
+    left: 455px;
+    opacity: 0%;
+}
+
 main article section form input[type=text] {
     width: 350px;
     padding: 15px 30px;
@@ -99,7 +107,7 @@ main article section form input[type=submit]:hover {
 main article figure {
     position: relative;
     width: 500px;
-    height: 700px;
+    height: 300px;
     max-height: 300px;
     margin: 0 auto;
 }
@@ -119,7 +127,7 @@ main article footer {
     align-items: center;
     flex-direction: column;
     margin-top: 60px;
-    gap: 15px
+    gap: 15px;
 }
 
 main article footer div:nth-child(1) {
